@@ -39,6 +39,7 @@ typedef enum {
   ErrorCodeAppVerificationRequired,
 } ErrorCode;
 
+NS_EXTENSION_UNAVAILABLE("GIDEMMErrorHandler not supported in extensions (deprecated use of UIApplication shared)")
 @implementation GIDEMMErrorHandler {
   // Whether or not a dialog is pending user interaction.
   BOOL _pendingDialog;
