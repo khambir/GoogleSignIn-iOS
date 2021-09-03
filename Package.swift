@@ -32,7 +32,7 @@ let package = Package(
   dependencies: [
     .package(
       name: "AppAuth",
-      url: "https://github.com/openid/AppAuth-iOS.git",
+      url: "https://github.com/khambir/AppAuth-iOS.git",
       "1.4.0" ..< "2.0.0"),
     .package(
       name: "GTMAppAuth",
